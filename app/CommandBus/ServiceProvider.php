@@ -1,11 +1,12 @@
-<?php namespace App\Providers;
+<?php namespace App\CommandBus;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+
 use Tactician\CommandBus\ExecutingCommandBus;
 use App\CommandBus\LaravelHandlerLocator;
 use App\CommandBus\HandleInflector;
 
-class TacticianServiceProvider extends ServiceProvider {
+class ServiceProvider extends BaseServiceProvider {
 
 	/**
 	 * Bootstrap the application services.

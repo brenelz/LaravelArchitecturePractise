@@ -117,7 +117,7 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
-		'App\Providers\TacticianServiceProvider',
+		'App\CommandBus\ServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
